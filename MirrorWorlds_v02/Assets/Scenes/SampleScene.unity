@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 197910460}
   - component: {fileID: 197910459}
   m_Layer: 0
-  m_Name: _0008_Layer-9
+  m_Name: TreeBG-05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 510156341}
   - component: {fileID: 510156340}
   m_Layer: 0
-  m_Name: _0005_Layer-23-copy
+  m_Name: TreeBG-02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 522794872}
   - component: {fileID: 522794871}
   m_Layer: 0
-  m_Name: _0004_Layer-24-copy
+  m_Name: TreeBG-01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1913,7 +1913,7 @@ GameObject:
   - component: {fileID: 1062387581}
   - component: {fileID: 1062387580}
   m_Layer: 0
-  m_Name: _0007_Layer-23
+  m_Name: TreeBG-04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2421,7 +2421,7 @@ GameObject:
   - component: {fileID: 1181894000}
   - component: {fileID: 1181893999}
   m_Layer: 0
-  m_Name: _0006_Layer-24
+  m_Name: TreeBG-03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4340,7 +4340,7 @@ GameObject:
   - component: {fileID: 543450652118377177}
   - component: {fileID: 575173484}
   m_Layer: 0
-  m_Name: Tree-2-L (1)
+  m_Name: Tree-2-L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
