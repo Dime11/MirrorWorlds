@@ -190,8 +190,8 @@ MonoBehaviour:
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7209579721836863278, guid: 72b4849588a55ff4caa43cd092f2c7e9, type: 3}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_Position: {x: -2.55, y: 0, z: -0.97}
+  m_EulerAngles: {x: 0, y: 123.86, z: 0}
   m_UseTrackMatchFields: 1
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 1
@@ -307,7 +307,7 @@ MonoBehaviour:
     m_ExposedParameterNames: []
     m_AnimationCurves: {fileID: 0}
     m_Recordable: 0
-    m_PostExtrapolationMode: 1
+    m_PostExtrapolationMode: 2
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
