@@ -16,15 +16,15 @@ public class EnterPortal : MonoBehaviour
         
     }
 
-    void OnTriggerEnter(Collider Collider)
+    void OnTriggerEnter(Collider other)
     {
-       if (transform.position.y > -100)
+       if (other.name == "Portal_1")
         {
-            GameObject.Find ("OVRCameraRig").transform.position = new Vector3(3,transform.position.y,-200);
+            GameObject.Find ("OVRCameraRig").transform.position = new Vector3(3,transform.position.y-transform.position.y,-200);
         }
-        else if (transform.position.y < -100)
+        else if (other.name == "Portal_2")
         {
-            GameObject.Find ("OVRCameraRig").transform.position = new Vector3(3,transform.position.y,0);
+            GameObject.Find ("OVRCameraRig").transform.position = new Vector3(3,transform.position.y-transform.position.y,0);
         }
         
     }
