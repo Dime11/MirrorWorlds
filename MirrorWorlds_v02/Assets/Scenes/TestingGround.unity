@@ -9577,6 +9577,7 @@ GameObject:
   - component: {fileID: 967470283}
   - component: {fileID: 967470286}
   - component: {fileID: 967470288}
+  - component: {fileID: 967470287}
   m_Layer: 0
   m_Name: Dome2
   m_TagString: Untagged
@@ -9747,6 +9748,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &967470287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967470282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e621481b1f9c8446ac17a5945c989f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scrollX: 0.002
+  scrollY: 0
 --- !u!111 &967470288
 Animation:
   m_ObjectHideFlags: 0
