@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BasicHandMaterial
-  m_Shader: {fileID: 4800000, guid: f92fef4e8869e674b8dbc8fb64db23cd, type: 3}
+  m_Shader: {fileID: 4800000, guid: b895d3431e75dc345a72e171f82bfbea, type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -47,6 +47,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FingerGlowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: c00bf1ce0c68d5646ad7ea3d26b3486d, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -79,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _ColorRampOffset: 0
@@ -88,7 +96,7 @@ Material:
     - _DstBlend: 10
     - _EdgeWidth: 0.05
     - _FresnelBias: 0
-    - _FresnelPower: 0.294
+    - _FresnelPower: 0.49
     - _FresnelScale: 0
     - _GlossMapScale: 0.508
     - _Glossiness: 0.389
@@ -101,7 +109,16 @@ Material:
     - _NormalStrength1: 0.17
     - _NormalStrength2: 0.8
     - _OcclusionStrength: 1
+    - _Opacity: 0.8
+    - _OutlineGlowIntensity: 0
+    - _OutlineIntensity: 0.543
+    - _OutlineOpacity: 0.4
+    - _OutlinePinchRange: 0.15
+    - _OutlineSphereHardness: 0.3
+    - _OutlineWidth: 0.00134
     - _Parallax: 0.02
+    - _PinchIntensity: 0
+    - _PinchRange: 0.03
     - _Point2: 1
     - _Point3: 1
     - _Pow: 2
@@ -112,22 +129,30 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _WristOpacity: 1
+    - _WristRange: 0.06
+    - _WristScale: 1
     - _ZWrite: 0
     m_Colors:
     - _BoxDims: {r: 5, g: 5, b: 5, a: 1}
     - _Color: {r: 0.11740825, g: 0.17919159, b: 0.6415094, a: 0.8392157}
-    - _ColorBottom: {r: 0.20854396, g: 0.21842055, b: 0.5471698, a: 1}
+    - _ColorBottom: {r: 0.031772867, g: 0.032303795, b: 0.04716976, a: 1}
     - _ColorPrimary: {r: 0.39607796, g: 0.72549, b: 1, a: 1}
-    - _ColorTop: {r: 0.17241009, g: 0.2744669, b: 0.5471698, a: 1}
+    - _ColorTop: {r: 0, g: 0, b: 0, a: 1}
     - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
     - _Emission1: {r: 2.56, g: 0, b: 0, a: 1}
     - _Emission2: {r: 0, g: 1.95, b: 2.52, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FingerGlowColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlowDirection1: {r: 0.05, g: 0, b: 0, a: 1}
     - _FlowDirection2: {r: 0, g: 0.05, b: 0, a: 1}
     - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
     - _GlowColor: {r: 1, g: 1, b: 1, a: 1}
     - _InnerColor: {r: 1, g: 1, b: 1, a: 0.1764706}
+    - _OutlineColor: {r: 0.08657884, g: 0.2236016, b: 0.3018868, a: 1}
+    - _OutlineGlowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PinchColor: {r: 0.95, g: 0.95, b: 0.95, a: 1}
+    - _PinchPosition: {r: 0, g: 0, b: 0, a: 0}
     - _RimColor: {r: 0.30388466, g: 0.2598967, b: 0.8773585, a: 0.23529412}
     - _ScrollDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _WristLocalOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
