@@ -21,11 +21,12 @@ public class CopyRotation : MonoBehaviour
 
         transform.localEulerAngles = new Vector3(currentAngleX * rotationFactorX, currentAngleY * rotationFactorY, currentAngleZ * rotationFactorZ);
     }
-
+    
     float SetNegativeAngles(out float angle, float refFloat)
     { 
         angle = refFloat;
         angle = (angle > 180) ? angle - 360 : angle;
         return angle;
     }
+
 }
