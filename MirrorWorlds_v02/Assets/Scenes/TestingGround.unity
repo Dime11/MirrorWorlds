@@ -15041,7 +15041,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024783154}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4034f5847bd2fbd4592a0e02607dbcc5, type: 3}
   m_Name: 
@@ -15050,6 +15050,9 @@ MonoBehaviour:
   rotationFactorY: 0.1
   rotationFactorZ: 0
   target: {fileID: 569574886}
+  juliaNumX: 0
+  juliaNumY: -17
+  juliaNumZ: 0
 --- !u!114 &2024783157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15070,7 +15073,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2024783154}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53d5d3e6d829ea447bfc64b2bcfb16d2, type: 3}
   m_Name: 
@@ -15251,7 +15254,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043981521}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4034f5847bd2fbd4592a0e02607dbcc5, type: 3}
   m_Name: 
@@ -15260,6 +15263,9 @@ MonoBehaviour:
   rotationFactorY: 0.1
   rotationFactorZ: 0
   target: {fileID: 569574886}
+  juliaNumX: 0
+  juliaNumY: 0
+  juliaNumZ: 0
 --- !u!114 &2043981523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15280,7 +15286,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043981521}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 53d5d3e6d829ea447bfc64b2bcfb16d2, type: 3}
   m_Name: 
