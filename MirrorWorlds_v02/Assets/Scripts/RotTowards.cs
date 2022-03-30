@@ -11,17 +11,34 @@ public class RotTowards : MonoBehaviour
      //values for internal use
      private Quaternion _lookRotation;
      private Vector3 _direction;
+    
+     void Start ()    
+     {
+     InvokeRepeating("OutputTime", 1f, 1f);  //1s delay, repeat every 1s
+     }
+     void OutputTime() 
+     {
+     
+        //find the vector pointing from our position to the target
+         _direction = (Target.position - transform.position).normalized;
+ 
+         //create the rotation we need to be in to look at the target
+        _lookRotation = Quaternion.LookRotation(_direction);
+ 
+         //rotate us over time according to speed until we are in the required rotation
+         transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed); 
+     }
      
      // Update is called once per frame
      void Update()
      {     
          //find the vector pointing from our position to the target
-         _direction = (Target.position - transform.position).normalized;
+        // _direction = (Target.position - transform.position).normalized;
  
          //create the rotation we need to be in to look at the target
-         _lookRotation = Quaternion.LookRotation(_direction);
+        // _lookRotation = Quaternion.LookRotation(_direction);
  
          //rotate us over time according to speed until we are in the required rotation
-         transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);  
+         //transform.rotation = Quaternion.Slerp(transform.rotation, _lookRotation, Time.deltaTime * RotationSpeed);  
      }
 }
