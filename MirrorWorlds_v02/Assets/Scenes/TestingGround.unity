@@ -35910,7 +35910,6 @@ GameObject:
   - component: {fileID: 2043981525}
   - component: {fileID: 2043981523}
   - component: {fileID: 2043981522}
-  - component: {fileID: 2043981524}
   m_Layer: 0
   m_Name: Portal2Camera
   m_TagString: Untagged
@@ -35947,19 +35946,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d06f70ec429439946a4409849705a4a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 569574886}
---- !u!114 &2043981524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043981521}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53d5d3e6d829ea447bfc64b2bcfb16d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 569574886}
