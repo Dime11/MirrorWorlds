@@ -19810,6 +19810,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 569574886}
   RotationSpeed: 1
+  fromAngle: 225
+  toAngle: 265
+  startAngle: 40
 --- !u!1 &1098628126
 GameObject:
   m_ObjectHideFlags: 0
@@ -41734,6 +41737,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 569574886}
   RotationSpeed: 1
+  fromAngle: 215
+  toAngle: 255
+  startAngle: 0
 --- !u!1 &2035470650490915157
 GameObject:
   m_ObjectHideFlags: 0
